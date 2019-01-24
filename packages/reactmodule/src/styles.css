@@ -11,5 +11,5 @@ lerna version
 lerna version --conventional-commits
 lerna version --exact
 lerna version --force-publish=package-2
-"message": "chore(release): publish %s"
+
  */
