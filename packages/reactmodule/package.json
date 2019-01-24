@@ -66,7 +66,7 @@
     "globals": {},
     "verbose": true
   },
-  "gitHead": "a3cc6d1a1380f31d39f0228440b995715d9defc9",
+  "gitHead": "6d8b3e5d19452bb2a93a9964bf59f48ad693f5fa",
   "dependencies": {
     "lodash": "^4.17.11",
     "source-map": "^0.7.3"
