@@ -1,10 +1,10 @@
 {
-  "name": "default",
-  "version": "0.0.1",
+  "name": "defaultmodule",
+  "version": "1.0.0",
   "description": "",
   "author": "xiaolei",
   "license": "MIT",
-  "repository": "xiaolei/default",
+  "repository": "xiaolei/defaultmodule",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -85,8 +85,8 @@
     "globals": {},
     "verbose": true
   },
-  "gitHead": "cafcdad368169af80c4f72bfbfc953058790dfbf",
   "dependencies": {
+    "lodash": "^4.17.11",
     "source-map": "^0.7.3"
   }
 }

@@ -50,7 +50,8 @@
     "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^1.6.2",
-    "rollup-plugin-url": "^1.4.0"
+    "rollup-plugin-url": "^1.4.0",
+    "source-map": "^0.7.3"
   },
   "files": [
     "dist"
@@ -64,5 +65,10 @@
     "errorOnDeprecated": true,
     "globals": {},
     "verbose": true
+  },
+  "gitHead": "cafcdad368169af80c4f72bfbfc953058790dfbf",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "source-map": "^0.7.3"
   }
 }
