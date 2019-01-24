@@ -1,7 +1,7 @@
 {
   "name": "ic-reactmodule",
   "version": "1.0.9",
-  "description": "",
+  "description": "lerna test",
   "author": "xiaolei",
   "license": "MIT",
   "main": "dist/index.js",
