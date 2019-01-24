@@ -65,8 +65,9 @@
     "globals": {},
     "verbose": true
   },
-  "gitHead": "d2d637c06e258718b95a24137e6d7048aba768c5",
+  "gitHead": "48298a0690e93e44f0d05a600c80e1a11d65c3a3",
   "dependencies": {
+    "ic-defaultmodule": "^1.0.6",
     "lodash": "^4.17.11",
     "source-map": "^0.7.3"
   }

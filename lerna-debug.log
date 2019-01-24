@@ -6,10 +6,10 @@
 1 notice cli v3.10.7
 2 verbose rootPath /Users/xiaolei/Desktop/study/temp/lerna-repo
 3 info versioning independent
-4 verbose session 461c55d0c0d6034b
+4 verbose session 92953e391d6d4e68
 5 verbose user-agent lerna/3.10.7/node@v10.11.0+x64 (darwin)
-6 verbose git-describe undefined => "ic-reactmodule@1.0.17-1-gde47edc"
-7 silly git-describe parsed => {"lastTagName":"ic-reactmodule@1.0.17","lastVersion":"1.0.17","refCount":"1","sha":"de47edc","isDirty":false}
+6 verbose git-describe undefined => "ic-reactmodule@1.0.18-1-g7b59bf4"
+7 silly git-describe parsed => {"lastTagName":"ic-reactmodule@1.0.18","lastVersion":"1.0.18","refCount":"1","sha":"7b59bf4","isDirty":false}
 8 silly argv { _: [ 'publish' ],
 8 silly argv   contents: 'dist',
 8 silly argv   composed: 'publish',
@@ -24,15 +24,15 @@
 16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
 17 silly hasTags
 18 verbose hasTags true
-19 silly git-describe.sync "ic-reactmodule@1.0.17-1-gde47edc" => {"lastTagName":"ic-reactmodule@1.0.17","lastVersion":"1.0.17","refCount":"1","sha":"de47edc","isDirty":false}
-20 info Looking for changed packages since ic-reactmodule@1.0.17
-21 silly diffSinceIn ic-reactmodule@1.0.17 packages/defaultmodule
+19 silly git-describe.sync "ic-reactmodule@1.0.18-1-g7b59bf4" => {"lastTagName":"ic-reactmodule@1.0.18","lastVersion":"1.0.18","refCount":"1","sha":"7b59bf4","isDirty":false}
+20 info Looking for changed packages since ic-reactmodule@1.0.18
+21 silly diffSinceIn ic-reactmodule@1.0.18 packages/defaultmodule
 22 silly diff
-23 silly diffSinceIn ic-reactmodule@1.0.17 packages/reactmodule
-24 silly diff packages/reactmodule/src/styles.css
+23 silly diffSinceIn ic-reactmodule@1.0.18 packages/reactmodule
+24 silly diff packages/reactmodule/package.json
 25 verbose updated ic-reactmodule
-26 verbose git-describe undefined => "ic-reactmodule@1.0.17-1-gde47edc"
-27 silly git-describe parsed => {"lastTagName":"ic-reactmodule@1.0.17","lastVersion":"1.0.17","refCount":"1","sha":"de47edc","isDirty":false}
+26 verbose git-describe undefined => "ic-reactmodule@1.0.18-1-g7b59bf4"
+27 silly git-describe parsed => {"lastTagName":"ic-reactmodule@1.0.18","lastVersion":"1.0.18","refCount":"1","sha":"7b59bf4","isDirty":false}
 28 silly batched [ PackageGraphNode {
 28 silly batched     name: 'ic-reactmodule',
 28 silly batched     externalDependencies:
@@ -75,12 +75,12 @@
 33 silly gitAdd [ '/Users/xiaolei/Desktop/study/temp/lerna-repo/packages/reactmodule/package.json' ]
 34 silly gitCommit chore(release): publish %s
 34 silly gitCommit
-34 silly gitCommit  - ic-reactmodule@1.0.18
+34 silly gitCommit  - ic-reactmodule@1.0.19
 35 verbose git [ 'commit',
 35 verbose git   '-F',
-35 verbose git   '/private/var/folders/v_/ks0jftpx4sxdvxp8zzl1m_vw0000gn/T/5ace7c56-70ec-42c0-b39d-7797fe068d0b/lerna-commit.txt' ]
-36 silly gitTag ic-reactmodule@1.0.18
-37 verbose git [ 'tag', 'ic-reactmodule@1.0.18', '-m', 'ic-reactmodule@1.0.18' ]
+35 verbose git   '/private/var/folders/v_/ks0jftpx4sxdvxp8zzl1m_vw0000gn/T/07e8104e-017e-467c-b15a-9da106f32c0a/lerna-commit.txt' ]
+36 silly gitTag ic-reactmodule@1.0.19
+37 verbose git [ 'tag', 'ic-reactmodule@1.0.19', '-m', 'ic-reactmodule@1.0.19' ]
 38 silly lifecycle No script for "postversion" in "ic-reactmodule", continuing
 39 silly lifecycle No script for "postversion" in "root", continuing
 40 info git Pushing tags...
@@ -95,7 +95,7 @@
 45 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 46 warn ENOLICENSE Packages ic-reactmodule are missing a license
 47 silly getCurrentSHA
-48 verbose getCurrentSHA d2d637c06e258718b95a24137e6d7048aba768c5
+48 verbose getCurrentSHA 48298a0690e93e44f0d05a600c80e1a11d65c3a3
 49 silly lifecycle No script for "prepublish" in "root", continuing
 50 silly lifecycle No script for "prepare" in "root", continuing
 51 silly lifecycle No script for "prepublishOnly" in "root", continuing
