@@ -1,10 +1,9 @@
 {
-  "name": "reactmodule",
+  "name": "ic-reactmodule",
   "version": "0.1.0",
   "description": "",
   "author": "xiaolei",
   "license": "MIT",
-  "repository": "xiaolei/reactmodule",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -66,7 +65,7 @@
     "globals": {},
     "verbose": true
   },
-  "gitHead": "6d8b3e5d19452bb2a93a9964bf59f48ad693f5fa",
+  "gitHead": "ec288c7cb268b776b21fca4329ab53de46d4a435",
   "dependencies": {
     "lodash": "^4.17.11",
     "source-map": "^0.7.3"
