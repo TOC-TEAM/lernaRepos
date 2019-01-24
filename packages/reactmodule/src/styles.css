@@ -10,5 +10,6 @@
 lerna version 
 lerna version --conventional-commits
 lerna version --exact
+lerna version --force-publish=package-2
 
  */
