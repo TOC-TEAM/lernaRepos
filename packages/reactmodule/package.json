@@ -1,6 +1,6 @@
 {
   "name": "ic-reactmodule",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "lerna test",
   "author": "xiaolei",
   "license": "MIT",
@@ -67,7 +67,7 @@
   },
   "gitHead": "48298a0690e93e44f0d05a600c80e1a11d65c3a3",
   "dependencies": {
-    "ic-defaultmodule": "^1.1.1",
+    "ic-defaultmodule": "^1.1.2",
     "lodash": "^4.17.11",
     "source-map": "^0.7.3"
   }
