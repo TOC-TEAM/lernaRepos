@@ -1,0 +1,108 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   contents: 'dist',
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.10.7',
+0 silly argv   '$0': 'lerna' }
+1 notice cli v3.10.7
+2 verbose rootPath /Users/xiaolei/Desktop/study/temp/lerna-repo
+3 info versioning independent
+4 verbose session 461c55d0c0d6034b
+5 verbose user-agent lerna/3.10.7/node@v10.11.0+x64 (darwin)
+6 verbose git-describe undefined => "ic-reactmodule@1.0.17-1-gde47edc"
+7 silly git-describe parsed => {"lastTagName":"ic-reactmodule@1.0.17","lastVersion":"1.0.17","refCount":"1","sha":"de47edc","isDirty":false}
+8 silly argv { _: [ 'publish' ],
+8 silly argv   contents: 'dist',
+8 silly argv   composed: 'publish',
+8 silly argv   lernaVersion: '3.10.7' }
+9 verbose rootPath /Users/xiaolei/Desktop/study/temp/lerna-repo
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly currentBranch
+13 verbose currentBranch master
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "ic-reactmodule@1.0.17-1-gde47edc" => {"lastTagName":"ic-reactmodule@1.0.17","lastVersion":"1.0.17","refCount":"1","sha":"de47edc","isDirty":false}
+20 info Looking for changed packages since ic-reactmodule@1.0.17
+21 silly diffSinceIn ic-reactmodule@1.0.17 packages/defaultmodule
+22 silly diff
+23 silly diffSinceIn ic-reactmodule@1.0.17 packages/reactmodule
+24 silly diff packages/reactmodule/src/styles.css
+25 verbose updated ic-reactmodule
+26 verbose git-describe undefined => "ic-reactmodule@1.0.17-1-gde47edc"
+27 silly git-describe parsed => {"lastTagName":"ic-reactmodule@1.0.17","lastVersion":"1.0.17","refCount":"1","sha":"de47edc","isDirty":false}
+28 silly batched [ PackageGraphNode {
+28 silly batched     name: 'ic-reactmodule',
+28 silly batched     externalDependencies:
+28 silly batched      Map {
+28 silly batched        'babel-core' => [Object],
+28 silly batched        'babel-eslint' => [Object],
+28 silly batched        'babel-plugin-external-helpers' => [Object],
+28 silly batched        'babel-preset-env' => [Object],
+28 silly batched        'babel-preset-react' => [Object],
+28 silly batched        'babel-preset-stage-0' => [Object],
+28 silly batched        'cross-env' => [Object],
+28 silly batched        'eslint' => [Object],
+28 silly batched        'eslint-config-standard' => [Object],
+28 silly batched        'eslint-config-standard-react' => [Object],
+28 silly batched        'eslint-plugin-import' => [Object],
+28 silly batched        'eslint-plugin-node' => [Object],
+28 silly batched        'eslint-plugin-promise' => [Object],
+28 silly batched        'eslint-plugin-react' => [Object],
+28 silly batched        'eslint-plugin-standard' => [Object],
+28 silly batched        'gh-pages' => [Object],
+28 silly batched        'jest' => [Object],
+28 silly batched        'react' => [Object],
+28 silly batched        'react-dom' => [Object],
+28 silly batched        'react-scripts' => [Object],
+28 silly batched        'rollup' => [Object],
+28 silly batched        'rollup-plugin-babel' => [Object],
+28 silly batched        'rollup-plugin-commonjs' => [Object],
+28 silly batched        'rollup-plugin-node-resolve' => [Object],
+28 silly batched        'rollup-plugin-peer-deps-external' => [Object],
+28 silly batched        'rollup-plugin-postcss' => [Object],
+28 silly batched        'rollup-plugin-url' => [Object],
+28 silly batched        'source-map' => [Object],
+28 silly batched        'lodash' => [Object] },
+28 silly batched     localDependencies: Map {},
+28 silly batched     localDependents: Map {} } ]
+29 silly lifecycle No script for "preversion" in "root", continuing
+30 silly lifecycle No script for "preversion" in "ic-reactmodule", continuing
+31 silly lifecycle No script for "version" in "ic-reactmodule", continuing
+32 silly lifecycle No script for "version" in "root", continuing
+33 silly gitAdd [ '/Users/xiaolei/Desktop/study/temp/lerna-repo/packages/reactmodule/package.json' ]
+34 silly gitCommit chore(release): publish %s
+34 silly gitCommit
+34 silly gitCommit  - ic-reactmodule@1.0.18
+35 verbose git [ 'commit',
+35 verbose git   '-F',
+35 verbose git   '/private/var/folders/v_/ks0jftpx4sxdvxp8zzl1m_vw0000gn/T/5ace7c56-70ec-42c0-b39d-7797fe068d0b/lerna-commit.txt' ]
+36 silly gitTag ic-reactmodule@1.0.18
+37 verbose git [ 'tag', 'ic-reactmodule@1.0.18', '-m', 'ic-reactmodule@1.0.18' ]
+38 silly lifecycle No script for "postversion" in "ic-reactmodule", continuing
+39 silly lifecycle No script for "postversion" in "root", continuing
+40 info git Pushing tags...
+41 silly gitPush origin master
+42 silly batched [ PackageGraphNode {
+42 silly batched     name: 'ic-reactmodule',
+42 silly batched     externalDependencies: Map { 'lodash' => [Object], 'source-map' => [Object] },
+42 silly batched     localDependencies: Map {},
+42 silly batched     localDependents: Map {} } ]
+43 info publish Publishing packages to npm...
+44 notice Skipping all user and access validation due to third-party registry
+45 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+46 warn ENOLICENSE Packages ic-reactmodule are missing a license
+47 silly getCurrentSHA
+48 verbose getCurrentSHA d2d637c06e258718b95a24137e6d7048aba768c5
+49 silly lifecycle No script for "prepublish" in "root", continuing
+50 silly lifecycle No script for "prepare" in "root", continuing
+51 silly lifecycle No script for "prepublishOnly" in "root", continuing
+52 silly lifecycle No script for "prepack" in "root", continuing
+53 verbose pack-directory packages/reactmodule/dist
+54 silly lifecycle No script for "prepublish" in "ic-reactmodule", continuing
+55 silly lifecycle No script for "prepare" in "ic-reactmodule", continuing
+56 silly lifecycle No script for "prepublishOnly" in "ic-reactmodule", continuing
+57 silly lifecycle No script for "prepack" in "ic-reactmodule", continuing
+58 error
