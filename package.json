@@ -2,7 +2,8 @@
 	"name": "root",
 	"private": false,
 	"devDependencies": {
-		"lerna": "^3.10.7"
+		"lerna": "^3.10.7",
+		"webpack": "^4.29.0"
 	},
 	"dependencies": {
 		"conventional-changelog-cli": "^2.0.11"
